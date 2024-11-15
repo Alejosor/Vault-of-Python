@@ -1,0 +1,26 @@
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Entornos virtuales
+env/
+venv/
+
+# Archivos del sistema de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icono de carpeta personalizada en macOS
+Icon?
+
+# Archivos creados por Finder
+._*
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+
+# Thumbnails
+.Thumbnails/
