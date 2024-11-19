@@ -35,6 +35,3 @@ print(type(24.5)) #Esto es un tipo de dato float
 print(type(True)) #Esto es un tipo de dato bool
 print(type(1+2j)) #Esto es un tipo de dato complex
 ```
-
-## Variables 
-
