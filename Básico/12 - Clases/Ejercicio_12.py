@@ -1,3 +1,4 @@
+import math
 # 1. Crea una clase llamada "Animal" que tenga una propiedad "species" y un método "make_sound" que imprima un sonido genérico.
 class Animal:
     def __init__(self, species):
