@@ -1,4 +1,16 @@
 # 1. Crea una función que intente dividir dos números proporcionados por el usuario. Usa try-except para capturar cualquier error de división (por ejemplo, división por cero).
+def dividir_numeros():
+    try:
+        num1 = int(input('Ingrese un número:\n'))
+        num2 = int(input('Ingrese otro número:\n'))
+        division = num1 / num2
+        print(f'El resultado de la división es: {division}')
+    except ZeroDivisionError:
+        print('Error: No se puede dividir por cero.')
+    except ValueError:
+        print('Error: Por favor, ingrese un número válido.')
+    except Exception as e:
+        print(f'Ocurrió un error: {e}')
 
 # 2. Crea una función que tome una cadena e intente convertirla en un número entero. Usa try-except para capturar cualquier error en la conversión.
 
