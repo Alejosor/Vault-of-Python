@@ -13,6 +13,12 @@ def dividir_numeros():
         print(f'Ocurrió un error: {e}')
 
 # 2. Crea una función que tome una cadena e intente convertirla en un número entero. Usa try-except para capturar cualquier error en la conversión.
+def cadena_invertida():
+    try:
+        cadena_a_numero = int(input('Ingrese su número:\n'))
+        print(f'Este es su número: {cadena_a_numero}')
+    except ValueError:
+        print('Error: No se puede convertir la cadena a número.')
 
 # 3. Crea una función que abra un archivo, lea su contenido y maneje posibles errores (por ejemplo, archivo no encontrado). Usa try-except para gestionar las operaciones de archivos de forma segura.
 
